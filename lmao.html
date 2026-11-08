@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+        #users {
+            display: grid;
+            grid-template-columns: (repeat(3, 1fr));
+            gap: 15px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .avatar {
+            font-size: 40px;
+        }
+        .skill {
+            display: inline-block;
+            background: #e0e7ff;
+            padding: 2px 8px;
+            border-radius: 5px;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Пользователь сайта</h1>
+    <input type="text" id="search" placeholder="поиск по имени...">
+    <p id="count"></p>
+    <div id="users"></div>
+
+   
+
+
+    <script src="lmao.js"></script>
+</body>
+</html>
